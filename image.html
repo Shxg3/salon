@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة الصور</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #ff7b9c;
+            padding: 30px 0;
+            text-align: center;
+            color: #fff;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #ddd;
+            margin: 20px 0;
+        }
+
+        /* Image Section Styles */
+        .image-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 40px 0;
+        }
+
+        .image-box {
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        .image-box:hover {
+            transform: scale(1.05);
+        }
+
+        .image-box img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .image-box .caption {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            text-align: center;
+            font-size: 14px;
+            color: #333;
+        }
+
+        /* Link Section Styles */
+        .link-container {
+            background-color: #fff;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 40px auto;
+            max-width: 800px;
+        }
+
+        .link-container h2 {
+            color: #ff7b9c;
+            margin-top: 0;
+        }
+
+        .link-container ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .link-container li {
+            margin-bottom: 10px;
+        }
+
+        .link-container a {
+            color: #333;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .link-container a:hover {
+            color: #ff7b9c;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FIRST LADY</h1>
+    </header>
+
+    <hr>
+
+    <div class="image-container">
+        <div class="image-box">
+            <img src="brid.jpg" alt="صورة 1" width="200" height="150">
+            <div class="caption">صورة 1</div>
+        </div>
+        <div class="image-box">
+            <img src="hire.jpg" alt="صورة 2" width="300" height="200">
+            <div class="caption">صورة 2</div>
+        </div>
+        <div class="image-box">
+            <img src="sbki.jpg" alt="صورة 3" width="400" height="300">
+            <div class="caption">صورة 3</div>
+        </div>
+    </div>
+
+    <div class="link-container">
+        <h2>الروابط التشعبية:</h2>
+        <ul>
+            <li><a href="https://www.bing.com/ck/a?!&&p=92620bfe850c57ceJmltdHM9MTcxNzI4NjQwMCZpZ3VpZD0zZmNkZTQ2NS05MmJmLTY5NDctMzdiMy1mNjQwOTNmNjY4MTkmaW5zaWQ9NTI1NA&ptn=3&ver=2&hsh=3&fclid=3fcde465-92bf-6947-37b3-f64093f66819&psq=%d8%b9%d9%86%d8%a7%d9%8a%d9%87&u=a1aHR0cHM6Ly9zYXVkaWVuYXlhLmNvbS9hci8&ntb=1">موقع خارجي</a></li>
+            <li><a href="lady.html">الصفحة الرئسية</a></li>
+            <li><a href="#image"></a>الصور</li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: #ff7b9c;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header h2 {
+    color: white;
+    margin: 0;
+  }
+  
+  /* Navigation Menu Styles */
+  .nav_menu {
+    background-color: #FFCCCC;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .nav_menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+  }
+  
+  .nav_menu a:hover {
+    background-color: #FFCCCC;
+  }
+  
+/* Content Styles */
+.content {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 140px);
+  }
+  
+  .center {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Footer Styles */
+  footer {
+    color: #c6094b;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .student-names {
+    margin: 0;
+    font-size: 16px;
+  }

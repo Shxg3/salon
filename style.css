@@ -1,0 +1,74 @@
+/* CSS Stylesheet for HTML Tables */
+
+/* General Table Styles */
+table {
+    width: 90%;
+    border-collapse: separate;
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 40px auto; /* Center the table */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-spacing: 0;
+  }
+  
+  /* Table Caption Styles */
+  caption {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    text-align: center;
+    color: #333;
+    padding-top: 24px;
+  }
+  
+  /* Table Header Styles */
+  th {
+    background-color: #ff7b9c; /* Pink color for the table header */
+    color: #fff;
+    padding: 18px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  /* Table Cell Styles */
+  td {
+    border-bottom: 1px solid #f1f1f1;
+    padding: 16px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Alternating Row Styles */
+  tr:nth-child(even) {
+    background-color: #fef4f7; /* Light pink color for even rows */
+  }
+  
+  /* Colspan Styles */
+  td[colspan="3"] {
+    text-align: right;
+    font-style: italic;
+    font-size: 15px;
+    padding-right: 24px;
+    color: #888;
+    border-bottom: none;
+  }
+  
+  /* Hover Effect */
+  tr:hover {
+    background-color: #ffecf1; /* Slightly darker pink color on hover */
+  }
+  .button {
+    display: block;
+    width: 150px;
+    background-color: #ff7b9c;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 20px auto;
+    border-radius: 5px;
+  }
